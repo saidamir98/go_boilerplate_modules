@@ -27,6 +27,17 @@ type UpdateApplicationModel struct {
 	Body string `json:"body"`
 }
 
+// ApplicationUpdatedModel ...
+type ApplicationUpdatedModel struct {
+	ID   string `json:"id"`
+	Body string `json:"body"`
+}
+
+// DeleteApplicationModel ...
+type DeleteApplicationModel struct {
+	ID string `json:"id"`
+}
+
 // ApplicationListModel ...
 type ApplicationListModel struct {
 	Count        int                `json:"count"`
